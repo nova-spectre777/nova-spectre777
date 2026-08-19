@@ -14,7 +14,7 @@
 
 ## Engineering Focus
 
-I design and experiment with **developer-facing infrastructure**: systems that coordinate agents, understand repositories, route compute, automate software workflows, abstract providers, and make complex engineering tasks easier to operate.
+I build **developer-facing infrastructure**: systems that coordinate agents, understand repositories, route compute, automate software workflows, abstract providers, and make complex engineering tasks easier to operate.
 
 My current work sits at the intersection of:
 
@@ -25,7 +25,19 @@ My current work sits at the intersection of:
 - **Automation & operations** — self-hosted workflows, maintenance systems, infrastructure planning, reproducible execution
 - **Open protocols** — MCP/A2A-style integrations, adapter layers, structured tool calling, interoperability boundaries
 
-## Selected Work
+## Flagship Systems
+
+### TITAN — Autonomous Systems Platform
+
+[`nova-spectre777/titan-platform`](https://github.com/nova-spectre777/titan-platform)
+
+A modular autonomous-systems platform for software factories, cloud orchestration, distributed compute, agent discovery, digital-twin primitives, AI-system architecture, self-healing operations, universal backend planning, infrastructure history, and AI-native workspaces.
+
+**Core systems:**
+
+`ATLAS` · `ORBIT` · `NEURALNET` · `WORLDENGINE` · `SYNAPSE` · `GENESIS` · `HELIOS` · `OMNIFABRIC` · `CHRONOS` · `NOVA OS`
+
+TITAN focuses on explicit domain models, deterministic planners and schedulers, inspectable state, provider boundaries, safety gates, and a top-level orchestration runtime rather than hiding everything behind opaque automation.
 
 ### NEXUS — AI Engineering Control Plane
 
@@ -38,12 +50,6 @@ A local-first, modular control plane for AI-assisted software engineering and de
 `AgentMesh` · `DevSwarm` · `RepoBrain` · `OmniCompute` · `ProtocolX` · `ZeroOps` · `FreeStack` · `UniversalAPI` · `AutoMaintainer` · `ModelTorrent`
 
 NEXUS explores how agent orchestration, repository intelligence, compute routing, deployment planning, API abstraction, and maintenance workflows can live behind one extensible runtime.
-
-### TITAN — Autonomous Systems Platform
-
-**In development.** A separate, larger platform exploring software factories, cloud orchestration, distributed compute, self-healing runtimes, infrastructure history, universal backends, agent networks, and AI-native workspaces.
-
-Its subsystems are being designed as independent modules rather than superficial wrappers, with a top-level orchestration layer connecting them.
 
 ## Technical Surface Area
 
