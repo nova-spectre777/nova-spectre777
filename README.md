@@ -2,11 +2,9 @@
 
 # Nova Spectre
 
-### Open-source systems · accessibility tech · cryptographic mathematics · post-quantum security · wallet security · AI infrastructure · resilient public systems
+### Open-source systems · cryptographic mathematics · accessibility technology · post-quantum security · distributed infrastructure
 
-[![GitHub](https://img.shields.io/badge/GitHub-nova--spectre777-181717?logo=github&logoColor=white)](https://github.com/nova-spectre777)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Systems%20Builder-3DA639?logo=opensourceinitiative&logoColor=white)](https://github.com/nova-spectre777?tab=repositories)
-[![Polyglot](https://img.shields.io/badge/Polyglot-C%2B%2B%20%C2%B7%20Go%20%C2%B7%20Kotlin%20%C2%B7%20Java%20%C2%B7%20TypeScript%20%C2%B7%20Python-4B5563)](https://github.com/nova-spectre777?tab=repositories)
+**Project owner / contact: Telegram [@intelwire](https://t.me/intelwire)**
 
 </div>
 
@@ -14,168 +12,110 @@
 
 ## Engineering Focus
 
-I build **open-source systems and research infrastructure** around real-world problems: accessibility-aware routing, cryptographic mathematics, post-quantum migration, wallet safety, damaged-data reconstruction, resilient networks, AI infrastructure, and developer tooling.
+This portfolio explores **real, inspectable systems** across cryptographic mathematics, accessibility-aware routing, post-quantum migration, defensive wallet security, storage reconstruction, resilient networks, AI infrastructure, and developer tooling.
 
-My current work spans:
+Current technical areas include:
 
-- **Cryptographic mathematics** — lattice parameter search, correctness bounds, attack-model comparison, counterexample-first validation, Pareto optimization and reproducible certificates
-- **Accessibility & civic technology** — mobility-aware routing, geospatial graphs, OpenStreetMap/Overpass integration, uncertainty-aware UX and accessibility-data coverage
-- **Post-quantum migration** — cryptographic inventory, dependency hypergraphs, compatibility constraints, blast-radius analysis and staged PQC transition planning
-- **Wallet & blockchain security** — pre-sign state-diff analysis, adversarial simulation, semantic policies, approval/permission boundaries and counterexample generation
-- **Storage & recovery research** — damaged-image analysis, evidence fusion, reconstruction constraints, provenance and reproducible corruption benchmarks
-- **Resilient public infrastructure** — offline-first communication, trusted alerts, mesh synchronization and privacy-aware emergency coordination
-- **AI infrastructure** — agent orchestration, tool permissions, memory, task graphs and provider interoperability
-- **Developer tooling & distributed systems** — static analysis, migration planning, worker scheduling, deterministic convergence and Git/CI workflows
-- **Polyglot systems engineering** — C++23/C++20, Go, Kotlin/JVM, Java, TypeScript, Python, JavaScript, SQL and shell tooling
+- elliptic-curve and lattice cryptography mathematics;
+- reproducible search, counterexamples, parameter constraints, and proof-oriented certificates;
+- accessibility-aware routing and OpenStreetMap/Overpass integration;
+- post-quantum cryptographic inventory and staged migration planning;
+- defensive pre-sign wallet analysis;
+- damaged-storage reconstruction and provenance;
+- offline-first resilient communication;
+- distributed workers, static analysis, orchestration, and polyglot systems.
 
 ## Flagship Systems
 
 ### ACCESSPATH — RAMP-Σ Accessibility Routing
-
 [`nova-spectre777/accesspath`](https://github.com/nova-spectre777/accesspath)
 
-A real-data accessibility navigation and civic accessibility-gap platform using **browser geolocation + live OpenStreetMap/Overpass data**. Its **RAMP-Σ (Reliability-Aware Mobility Path Selection)** engine compares routes by known barriers → unknown accessibility evidence → mobility effort → distance, so missing map data never silently becomes “safe.”
-
-**Stack:** `Go routing/API` · `TypeScript web client` · `OpenStreetMap/Overpass` · `Leaflet` · `Docker`
-
-ACCESSPATH has no hidden demo route or seeded production place database; upstream data failures are surfaced instead of replaced with prerecorded results.
+Real-data accessibility routing using browser geolocation and live OpenStreetMap/Overpass data. RAMP-Σ prioritizes known barriers, missing accessibility evidence, mobility effort, and distance instead of silently treating unknown map data as safe.
 
 ---
 
 ### LATTICEFORGE — SPECTRA-Ω Cryptographic Parameter Compiler
-
 [`nova-spectre777/latticeforge`](https://github.com/nova-spectre777/latticeforge)
 
-A math-first lattice-cryptography research platform for constrained parameter search, correctness bounds, multi-model attack estimates, counterexample-first rejection, Pareto-frontier extraction and reproducible parameter certificates.
+Math-first lattice-cryptography research for constrained parameter search, correctness bounds, attack-model comparison, counterexample-first rejection, Pareto frontiers, and reproducible parameter certificates. v0.1 reports `VALID_UNDER_DECLARED_MODEL`, not unconditional security.
 
-**Verified stack:** `C++23 SPECTRA-Ω engine` · `Python experiment/certificate lab` · `TypeScript frontier tooling`
+---
 
-LATTICEFORGE deliberately reports `VALID_UNDER_DECLARED_MODEL` rather than making unconditional security claims; its v0.1 attack-cost models are transparent reference surrogates designed to test the compiler architecture and be replaced by stronger published estimators.
+### SECPQUEST — RANGE-Ω Bitcoin Puzzle Mathematics
+[`nova-spectre777/SECPQUEST`](https://github.com/nova-spectre777/SECPQUEST)
+
+CLI + web research toolkit for **explicit public Bitcoin puzzle challenges and synthetic secp256k1 exercises**. Includes elliptic-curve arithmetic, deterministic range sharding, bounded incremental search, candidate verification, transaction/DER analysis, and proof-of-search receipts. Search is manifest-allowlisted rather than accepting arbitrary wallet targets.
 
 ---
 
 ### CRYPTOWEAVE — MORPH-Ω Post-Quantum Migration Compiler
-
 [`nova-spectre777/cryptoweave`](https://github.com/nova-spectre777/cryptoweave)
 
-An experimental defensive platform for discovering cryptographic usage, modeling recursive protocol/dependency relationships, exposing migration blockers, calculating crypto blast radius and compiling staged post-quantum migration waves.
-
-**Verified stack:** `C++23 MORPH-Ω engine + read-only source scanner` · `Go migration compiler/control API` · `Python migration lab` · `TypeScript blast-radius studio` · `Java 21 JCA/JCE scanner`
+Cryptographic inventory, recursive dependency hypergraphs, migration blockers, blast-radius analysis, and compatibility-constrained staged PQC migration planning.
 
 ---
 
 ### AEGIS — CAPE-Σ Wallet Security Research
-
 [`nova-spectre777/aegis-cape`](https://github.com/nova-spectre777/aegis-cape)
 
-An experimental, non-custodial wallet-security platform that evaluates proposed actions across credible hostile execution worlds and blocks when a policy-breaking counterexample survives.
-
-**Verified stack:** `C++23 solver` · `Go simulation/quorum coordinator` · `Python adversarial-world lab` · `TypeScript wallet policy SDK`
-
-AEGIS contains no seed/private-key extraction, password cracking, unauthorized signing, transaction broadcasting or wallet-draining functionality.
+Experimental non-custodial wallet-security research that evaluates proposed actions across hostile execution worlds and blocks when credible policy-breaking counterexamples survive.
 
 ---
 
-### RESURGE BLACKLAB — Proof-Carrying Data Recovery Research
-
+### RESURGE BLACKLAB — MERA-ΩX PRIME
 [`nova-spectre777/resurge-blacklab`](https://github.com/nova-spectre777/resurge-blacklab)
 
-An experimental, read-only-first recovery platform built around **MERA-ΩX PRIME**: counterfactual reconstruction, contradiction-first elimination, recovery entropy, active acquisition ranking, multi-clone fusion, immutable overlays and digest-bound recovery certificates.
+Read-only-first damaged-storage reconstruction research using evidence fusion, contradiction-first elimination, recovery entropy, immutable overlays, active acquisition ranking, and provenance-bound certificates.
 
 ---
 
 ### CIVICMESH — Offline-First Public Resilience Network
-
 [`nova-spectre777/civicmesh-platform`](https://github.com/nova-spectre777/civicmesh-platform)
 
-An experimental public-good platform for signed emergency alerts, local mesh synchronization, shelter/resource discovery and network-partition recovery when normal connectivity degrades.
+Signed emergency alerts, deterministic mesh synchronization, offline verification, and partition-recovery foundations for public resilience scenarios.
 
 ---
 
 ### TITAN — Autonomous Systems Platform
-
 [`nova-spectre777/titan-platform`](https://github.com/nova-spectre777/titan-platform)
 
-A modular autonomous-systems platform spanning software factories, cloud orchestration, distributed compute, agent discovery, digital-twin primitives, self-healing operations and infrastructure history.
+Modular control plane connecting software-factory, cloud, distributed-compute, agent-network, digital-twin, self-healing, and infrastructure-history concepts behind explicit state and safety boundaries.
 
 ---
 
 ### FORGE — Polyglot Repository Modernization Engine
-
 [`nova-spectre777/forge-platform`](https://github.com/nova-spectre777/forge-platform)
 
-A multi-language modernization control plane separating repository analysis, migration planning, dependency ordering, worker scheduling and operator visualization.
+Multi-language modernization control plane separating repository analysis, migration DAGs, worker scheduling, risk modeling, and operator visualization.
 
 ---
 
 ### NEXUS — AI Engineering Control Plane
-
 [`nova-spectre777/nexus-monster`](https://github.com/nova-spectre777/nexus-monster)
 
-A local-first modular control plane for AI-assisted software engineering and developer infrastructure.
+Local-first modular infrastructure for AI-assisted software engineering: agent orchestration, repository intelligence, compute routing, protocol translation, deployment planning, and maintenance workflows.
 
-## Technical Surface Area
-
-```text
-Languages        C++23/C++20 · Go · Kotlin · Java · TypeScript · Python · JavaScript · SQL · Shell
-Crypto Math      Lattice parameters · Probability bounds · Modular arithmetic · Pareto search · Counterexamples
-Accessibility    Mobility routing · OSM/Overpass · Geospatial graphs · Uncertainty-aware UX
-Post-Quantum     Crypto inventory · PQC migration waves · Dependency hypergraphs · Compatibility gates
-Wallet Security  State diffs · Adversarial worlds · Semantic policies · Counterexamples · Approval boundaries
-Storage          Evidence fusion · Recovery entropy · Multi-clone reasoning · Immutable overlays · Corruption labs
-Systems          Mesh sync · Schedulers · Control planes · Static analysis · Task DAGs
-Security         Ed25519 · Provenance · Trust boundaries · Threat modeling · Permission/approval gates
-Backend          Go net/http · FastAPI · REST/JSON · CLI systems · Structured state
-AI               Agents · Tool calling · Model routing · MCP/A2A concepts · RAG foundations
-Infrastructure   GitHub Actions · Linux · Git automation · Docker · Offline-first design
-Research tracks  eBPF C · CUDA C++ · Solidity · Rust · Zig · Julia · Lean 4 · SystemVerilog
-Engineering      Testing · Validation · Failure modeling · Interoperability · Modular architecture
-```
-
-## Architecture Problems I Like
+## Technical Surface
 
 ```text
-How can cryptographic parameter claims be rejected by explicit mathematical counterexamples instead of vague scores?
-How do you search a multi-objective parameter space without hiding assumptions behind a “secure” label?
-How can route planning distinguish “unknown” from “accessible” instead of hiding missing evidence?
-How do you migrate a cryptographic estate without silently breaking protocols or devices?
-How can a wallet reject dangerous outcomes before the user signs?
-How can damaged storage be reconstructed without confusing inference with truth?
-How can useful public-interest software keep working when connectivity disappears?
-How should autonomous agents coordinate safely?
-How do large polyglot repositories get modernized without giant unsafe rewrites?
+Languages       C++23/C++20 · Go · Kotlin · Java · TypeScript · Python · JavaScript · Shell
+Crypto Math     secp256k1 · modular arithmetic · lattice parameters · probability bounds · Pareto search
+Systems         control planes · schedulers · mesh sync · task DAGs · static analysis · offline-first design
+Security        trust boundaries · Ed25519 · wallet policies · provenance · explicit approval gates
+Infrastructure  GitHub Actions · Docker · Linux · REST/JSON · CLI + browser tooling
+Research        PQC · formal methods · CUDA/eBPF/Rust/Zig/Lean tracks where explicitly marked experimental
 ```
-
-## Current Direction
-
-I am actively pushing toward larger open-source systems with:
-
-- cryptographic parameter analysis, estimator adapters and proof-oriented certificates
-- accessibility-aware geospatial systems and civic data-quality tooling
-- cryptographic discovery and post-quantum migration planning
-- defensive pre-sign wallet analysis and adversarial transaction simulation
-- evidence-driven data reconstruction and reproducible corruption benchmarks
-- offline-first and partition-tolerant software
-- cryptographic trust and explicit provenance
-- compiler/static-analysis-backed repository intelligence
-- distributed workers, simulation, automated verification and recovery
-- privacy-aware public-interest systems
-- explicit trust, permission and approval boundaries
 
 ## Collaboration
 
-I am interested in developers who enjoy **cryptographic mathematics, accessibility technology, geospatial systems, post-quantum migration, wallet security, storage systems, distributed systems, compilers/tooling, and public-interest technology—not only applications**.
-
-Good collaboration areas:
-
-`C++` · `Go` · `TypeScript` · `Kotlin` · `Java` · `Python` · `Lattice Cryptography` · `Applied Math` · `Formal Methods` · `Accessibility` · `OpenStreetMap` · `Geospatial` · `Post-Quantum Cryptography` · `eBPF` · `Wallet Security` · `Storage` · `Networking` · `Cryptography` · `Static Analysis` · `Distributed Systems`
-
-If a repository interests you, open an issue, propose an architecture, or submit a focused PR. Technical criticism is welcome when it makes the system simpler, safer or more useful.
+Focused issues and PRs are welcome, especially around cryptographic mathematics, accessibility, geospatial systems, post-quantum migration, storage, networking, distributed systems, static analysis, and verification.
 
 ---
 
 <div align="center">
 
 **Build systems that make people and other builders more capable.**
+
+**Telegram: [@intelwire](https://t.me/intelwire)**
 
 </div>
