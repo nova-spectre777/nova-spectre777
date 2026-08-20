@@ -2,7 +2,7 @@
 
 # Nova Spectre
 
-### Open-source systems · wallet security · AI infrastructure · distributed computing · public-good resilience · storage-recovery research
+### Open-source systems · post-quantum security · wallet security · AI infrastructure · distributed computing · public-good resilience · storage-recovery research
 
 [![GitHub](https://img.shields.io/badge/GitHub-nova--spectre777-181717?logo=github&logoColor=white)](https://github.com/nova-spectre777)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Systems%20Builder-3DA639?logo=opensourceinitiative&logoColor=white)](https://github.com/nova-spectre777?tab=repositories)
@@ -14,10 +14,11 @@
 
 ## Engineering Focus
 
-I build **open-source systems and research infrastructure**: software that reasons about risky wallet actions before signing, reconstructs damaged data without hiding uncertainty, survives degraded networks, coordinates distributed systems, and makes complex engineering behavior inspectable.
+I build **open-source systems and research infrastructure**: software that inventories and migrates cryptography, reasons about risky wallet actions before signing, reconstructs damaged data without hiding uncertainty, survives degraded networks, coordinates distributed systems, and makes complex engineering behavior inspectable.
 
 My current work spans:
 
+- **Post-quantum migration** — cryptographic inventory, dependency hypergraphs, compatibility constraints, blast-radius analysis and staged PQC transition planning
 - **Wallet & blockchain security** — pre-sign state-diff analysis, adversarial simulation, semantic policies, approval/permission boundaries and counterexample generation
 - **Storage & recovery research** — damaged-image analysis, evidence fusion, reconstruction constraints, provenance, uncertainty and reproducible corruption benchmarks
 - **Resilient public infrastructure** — offline-first communication, trusted alerts, mesh synchronization, privacy-aware emergency coordination
@@ -28,6 +29,20 @@ My current work spans:
 - **Open interoperability** — schemas, protocol adapters and explicit cross-runtime contracts
 
 ## Flagship Systems
+
+### CRYPTOWEAVE — MORPH-Ω Post-Quantum Migration Compiler
+
+[`nova-spectre777/cryptoweave`](https://github.com/nova-spectre777/cryptoweave)
+
+An experimental defensive platform for discovering cryptographic usage, modeling recursive protocol/dependency relationships, exposing migration blockers, calculating crypto blast radius and compiling staged post-quantum migration waves.
+
+**Verified stack:** `C++23 MORPH-Ω engine + read-only source scanner` · `Go migration compiler/control API` · `Python migration lab` · `TypeScript blast-radius studio` · `Java 21 JCA/JCE scanner`
+
+**Research tracks:** `eBPF C` · `Rust` · `Lean 4` — included as explicit experimental paths, not claimed verified in the v0.1 environment.
+
+CRYPTOWEAVE separates discovery from remediation and refuses to emit `PQC_ONLY` for an affected dependency chain while hard compatibility blockers remain unresolved.
+
+---
 
 ### AEGIS — CAPE-Σ Wallet Security Research
 
@@ -97,6 +112,7 @@ A local-first modular control plane for AI-assisted software engineering and dev
 
 ```text
 Languages        C++23/C++20 · Go · Kotlin · Java · TypeScript · Python · JavaScript · SQL · Shell
+Post-Quantum     Crypto inventory · PQC migration waves · Dependency hypergraphs · Blast radius · Compatibility gates
 Wallet Security  State diffs · Adversarial worlds · Semantic policies · Counterexamples · Approval boundaries
 Storage          Evidence fusion · Recovery entropy · Multi-clone reasoning · Immutable overlays · Corruption labs
 Systems          Mesh sync · Schedulers · Control planes · Static analysis · Task DAGs
@@ -104,13 +120,15 @@ Security         Ed25519 · Provenance · Trust boundaries · Threat modeling ·
 Backend          FastAPI · Go net/http · REST/JSON · CLI systems · Structured state
 AI               Agents · Tool calling · Model routing · MCP/A2A concepts · RAG foundations
 Infrastructure   GitHub Actions · Linux · Git automation · Provider abstraction · Offline-first design
-Research tracks  CUDA C++ · Solidity · Rust · Zig · Julia · Lean 4 · SystemVerilog
+Research tracks  eBPF C · CUDA C++ · Solidity · Rust · Zig · Julia · Lean 4 · SystemVerilog
 Engineering      Testing · Validation · Failure modeling · Interoperability · Modular architecture
 ```
 
 ## Architecture Problems I Like
 
 ```text
+How do you migrate a large cryptographic estate without silently breaking protocols or devices?
+Which compatibility blocker unlocks the largest high-risk portion of a post-quantum migration?
 How can a wallet reject dangerous outcomes before the user signs?
 How can one catastrophic counterexample outweigh hundreds of harmless simulations?
 How can damaged storage be reconstructed without confusing inference with truth?
@@ -118,13 +136,13 @@ How should a recovery engine prove why a candidate survived its constraints?
 How can useful software keep working when the internet disappears?
 How should autonomous agents coordinate safely?
 How do large polyglot repositories get modernized without giant unsafe rewrites?
-How should distributed nodes converge after partitions without hiding conflicts?
 ```
 
 ## Current Direction
 
 I am actively pushing toward larger open-source systems with:
 
+- cryptographic discovery and post-quantum migration planning
 - defensive pre-sign wallet analysis and adversarial transaction simulation
 - evidence-driven data reconstruction and reproducible corruption benchmarks
 - offline-first and partition-tolerant software
@@ -138,11 +156,11 @@ I am actively pushing toward larger open-source systems with:
 
 ## Collaboration
 
-I am interested in developers who enjoy **wallet security, storage systems, distributed systems, compilers/tooling, security boundaries, offline software and public-interest technology—not only applications**.
+I am interested in developers who enjoy **cryptography migration, wallet security, storage systems, distributed systems, compilers/tooling, security boundaries, offline software and public-interest technology—not only applications**.
 
 Good collaboration areas:
 
-`C++` · `Go` · `Kotlin` · `Java` · `TypeScript` · `Python` · `Solidity` · `Wallet Security` · `EVM` · `Storage` · `Filesystems` · `Data Recovery` · `Networking` · `Cryptography` · `Static Analysis` · `Distributed Systems`
+`C++` · `Go` · `Kotlin` · `Java` · `TypeScript` · `Python` · `Solidity` · `Post-Quantum Cryptography` · `eBPF` · `LLVM/Clang` · `Wallet Security` · `EVM` · `Storage` · `Filesystems` · `Data Recovery` · `Networking` · `Cryptography` · `Static Analysis` · `Distributed Systems`
 
 If a repository interests you, open an issue, propose an architecture, or submit a focused PR. Technical criticism is welcome when it makes the system simpler, safer or more useful.
 
