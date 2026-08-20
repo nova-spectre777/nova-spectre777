@@ -2,7 +2,7 @@
 
 # Nova Spectre
 
-### Open-source systems · accessibility tech · post-quantum security · wallet security · AI infrastructure · resilient public systems
+### Open-source systems · accessibility tech · cryptographic mathematics · post-quantum security · wallet security · AI infrastructure · resilient public systems
 
 [![GitHub](https://img.shields.io/badge/GitHub-nova--spectre777-181717?logo=github&logoColor=white)](https://github.com/nova-spectre777)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Systems%20Builder-3DA639?logo=opensourceinitiative&logoColor=white)](https://github.com/nova-spectre777?tab=repositories)
@@ -14,10 +14,11 @@
 
 ## Engineering Focus
 
-I build **open-source systems and research infrastructure** around real-world problems: accessibility-aware routing, cryptographic migration, wallet safety, damaged-data reconstruction, resilient networks, AI infrastructure, and developer tooling.
+I build **open-source systems and research infrastructure** around real-world problems: accessibility-aware routing, cryptographic mathematics, post-quantum migration, wallet safety, damaged-data reconstruction, resilient networks, AI infrastructure, and developer tooling.
 
 My current work spans:
 
+- **Cryptographic mathematics** — lattice parameter search, correctness bounds, attack-model comparison, counterexample-first validation, Pareto optimization and reproducible certificates
 - **Accessibility & civic technology** — mobility-aware routing, geospatial graphs, OpenStreetMap/Overpass integration, uncertainty-aware UX and accessibility-data coverage
 - **Post-quantum migration** — cryptographic inventory, dependency hypergraphs, compatibility constraints, blast-radius analysis and staged PQC transition planning
 - **Wallet & blockchain security** — pre-sign state-diff analysis, adversarial simulation, semantic policies, approval/permission boundaries and counterexample generation
@@ -38,6 +39,18 @@ A real-data accessibility navigation and civic accessibility-gap platform using 
 **Stack:** `Go routing/API` · `TypeScript web client` · `OpenStreetMap/Overpass` · `Leaflet` · `Docker`
 
 ACCESSPATH has no hidden demo route or seeded production place database; upstream data failures are surfaced instead of replaced with prerecorded results.
+
+---
+
+### LATTICEFORGE — SPECTRA-Ω Cryptographic Parameter Compiler
+
+[`nova-spectre777/latticeforge`](https://github.com/nova-spectre777/latticeforge)
+
+A math-first lattice-cryptography research platform for constrained parameter search, correctness bounds, multi-model attack estimates, counterexample-first rejection, Pareto-frontier extraction and reproducible parameter certificates.
+
+**Verified stack:** `C++23 SPECTRA-Ω engine` · `Python experiment/certificate lab` · `TypeScript frontier tooling`
+
+LATTICEFORGE deliberately reports `VALID_UNDER_DECLARED_MODEL` rather than making unconditional security claims; its v0.1 attack-cost models are transparent reference surrogates designed to test the compiler architecture and be replaced by stronger published estimators.
 
 ---
 
@@ -105,6 +118,7 @@ A local-first modular control plane for AI-assisted software engineering and dev
 
 ```text
 Languages        C++23/C++20 · Go · Kotlin · Java · TypeScript · Python · JavaScript · SQL · Shell
+Crypto Math      Lattice parameters · Probability bounds · Modular arithmetic · Pareto search · Counterexamples
 Accessibility    Mobility routing · OSM/Overpass · Geospatial graphs · Uncertainty-aware UX
 Post-Quantum     Crypto inventory · PQC migration waves · Dependency hypergraphs · Compatibility gates
 Wallet Security  State diffs · Adversarial worlds · Semantic policies · Counterexamples · Approval boundaries
@@ -121,6 +135,8 @@ Engineering      Testing · Validation · Failure modeling · Interoperability �
 ## Architecture Problems I Like
 
 ```text
+How can cryptographic parameter claims be rejected by explicit mathematical counterexamples instead of vague scores?
+How do you search a multi-objective parameter space without hiding assumptions behind a “secure” label?
 How can route planning distinguish “unknown” from “accessible” instead of hiding missing evidence?
 How do you migrate a cryptographic estate without silently breaking protocols or devices?
 How can a wallet reject dangerous outcomes before the user signs?
@@ -134,6 +150,7 @@ How do large polyglot repositories get modernized without giant unsafe rewrites?
 
 I am actively pushing toward larger open-source systems with:
 
+- cryptographic parameter analysis, estimator adapters and proof-oriented certificates
 - accessibility-aware geospatial systems and civic data-quality tooling
 - cryptographic discovery and post-quantum migration planning
 - defensive pre-sign wallet analysis and adversarial transaction simulation
@@ -147,11 +164,11 @@ I am actively pushing toward larger open-source systems with:
 
 ## Collaboration
 
-I am interested in developers who enjoy **accessibility technology, geospatial systems, cryptography migration, wallet security, storage systems, distributed systems, compilers/tooling, and public-interest technology—not only applications**.
+I am interested in developers who enjoy **cryptographic mathematics, accessibility technology, geospatial systems, post-quantum migration, wallet security, storage systems, distributed systems, compilers/tooling, and public-interest technology—not only applications**.
 
 Good collaboration areas:
 
-`Go` · `C++` · `TypeScript` · `Kotlin` · `Java` · `Python` · `Accessibility` · `OpenStreetMap` · `Geospatial` · `Post-Quantum Cryptography` · `eBPF` · `Wallet Security` · `Storage` · `Networking` · `Cryptography` · `Static Analysis` · `Distributed Systems`
+`C++` · `Go` · `TypeScript` · `Kotlin` · `Java` · `Python` · `Lattice Cryptography` · `Applied Math` · `Formal Methods` · `Accessibility` · `OpenStreetMap` · `Geospatial` · `Post-Quantum Cryptography` · `eBPF` · `Wallet Security` · `Storage` · `Networking` · `Cryptography` · `Static Analysis` · `Distributed Systems`
 
 If a repository interests you, open an issue, propose an architecture, or submit a focused PR. Technical criticism is welcome when it makes the system simpler, safer or more useful.
 
