@@ -1,121 +1,93 @@
 <div align="center">
+  <img src="./assets/nova-orbit.svg" alt="Abstract 3D orbit artwork in midnight blue and lavender" width="100%" />
+  <br />
 
-# Nova Spectre
+  # Hey, I'm Nova 👋
 
-### Open-source systems · cryptographic mathematics · accessibility technology · post-quantum security · distributed infrastructure
+  **Developer in progress · Curious builder · Lifelong learner**
 
-**Project owner / contact: Telegram [@intelwire](https://t.me/intelwire)**
+  I enjoy learning how software works, building useful things, and exploring what web development and AI can make possible.
 
+  <p>
+    <a href="#about-me">About me</a> ·
+    <a href="#what-im-about">What I'm about</a> ·
+    <a href="#skills">Skills</a> ·
+    <a href="#learning-journey">Learning journey</a> ·
+    <a href="#connect">Connect</a>
+  </p>
 </div>
 
 ---
 
-## Engineering Focus
+## About me
 
-This portfolio explores **real, inspectable systems** across cryptographic mathematics, accessibility-aware routing, post-quantum migration, defensive wallet security, storage reconstruction, resilient networks, AI infrastructure, and developer tooling.
+Hey! I'm Nova. I'm a self-driven learner interested in software development, web technologies, and practical AI tools. I like taking an idea, figuring out how it could work, and improving it step by step.
 
-Current technical areas include:
+I'm still learning, and that's part of the point: understand the fundamentals, build things that are useful, and get a little better with every iteration.
 
-- elliptic-curve and lattice cryptography mathematics;
-- reproducible search, counterexamples, parameter constraints, and proof-oriented certificates;
-- accessibility-aware routing and OpenStreetMap/Overpass integration;
-- post-quantum cryptographic inventory and staged migration planning;
-- defensive pre-sign wallet analysis;
-- damaged-storage reconstruction and provenance;
-- offline-first resilient communication;
-- distributed workers, static analysis, orchestration, and polyglot systems.
+## What I'm about
 
-## Flagship Systems
+- **Curiosity first:** explore how things work instead of stopping at the surface.
+- **Build to learn:** turn concepts into small, practical experiments.
+- **Useful technology:** focus on tools and experiences that solve real problems.
+- **Keep improving:** welcome feedback, learn from mistakes, and refine the work.
 
-### ACCESSPATH — RAMP-Σ Accessibility Routing
-[`nova-spectre777/accesspath`](https://github.com/nova-spectre777/accesspath)
+## Skills
 
-Real-data accessibility routing using browser geolocation and live OpenStreetMap/Overpass data. RAMP-Σ prioritizes known barriers, missing accessibility evidence, mobility effort, and distance instead of silently treating unknown map data as safe.
+### Web development
 
----
+<p>
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-191A2E?style=for-the-badge&logo=html5&logoColor=E34F26" />
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-191A2E?style=for-the-badge&logo=css3&logoColor=1572B6" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-191A2E?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img alt="React" src="https://img.shields.io/badge/React-191A2E?style=for-the-badge&logo=react&logoColor=61DAFB" />
+</p>
 
-### LATTICEFORGE — SPECTRA-Ω Cryptographic Parameter Compiler
-[`nova-spectre777/latticeforge`](https://github.com/nova-spectre777/latticeforge)
+### Programming and tools
 
-Math-first lattice-cryptography research for constrained parameter search, correctness bounds, attack-model comparison, counterexample-first rejection, Pareto frontiers, and reproducible parameter certificates. v0.1 reports `VALID_UNDER_DECLARED_MODEL`, not unconditional security.
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-191A2E?style=for-the-badge&logo=python&logoColor=3776AB" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-191A2E?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-191A2E?style=for-the-badge&logo=git&logoColor=F05032" />
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-191A2E?style=for-the-badge&logo=github&logoColor=FFFFFF" />
+  <img alt="AI APIs" src="https://img.shields.io/badge/AI_APIs_%26_Automation-191A2E?style=for-the-badge&logo=openai&logoColor=A89BFF" />
+</p>
 
----
+I'm continuing to deepen these skills through practice. The badges show my current areas of focus, not a claim that I've mastered every tool.
 
-### SECPQUEST — RANGE-Ω Bitcoin Puzzle Mathematics
-[`nova-spectre777/SECPQUEST`](https://github.com/nova-spectre777/SECPQUEST)
+## Learning journey
 
-CLI + web research toolkit for **explicit public Bitcoin puzzle challenges and synthetic secp256k1 exercises**. Includes elliptic-curve arithmetic, deterministic range sharding, bounded incremental search, candidate verification, transaction/DER analysis, and proof-of-search receipts. Search is manifest-allowlisted rather than accepting arbitrary wallet targets.
+| Focus | What I'm working toward |
+| --- | --- |
+| **Web foundations** | Stronger HTML, CSS, JavaScript, and responsive UI skills |
+| **Full-stack basics** | Connecting interfaces with APIs and backend tools |
+| **AI and automation** | Understanding API integrations and making helpful workflows |
+| **Engineering habits** | Better debugging, readable code, Git, testing, and steady iteration |
 
----
+My approach is simple: **learn → build → test → improve**.
 
-### CRYPTOWEAVE — MORPH-Ω Post-Quantum Migration Compiler
-[`nova-spectre777/cryptoweave`](https://github.com/nova-spectre777/cryptoweave)
+## 3D GitHub activity
 
-Cryptographic inventory, recursive dependency hypergraphs, migration blockers, blast-radius analysis, and compatibility-constrained staged PQC migration planning.
-
----
-
-### AEGIS — CAPE-Σ Wallet Security Research
-[`nova-spectre777/aegis-cape`](https://github.com/nova-spectre777/aegis-cape)
-
-Experimental non-custodial wallet-security research that evaluates proposed actions across hostile execution worlds and blocks when credible policy-breaking counterexamples survive.
-
----
-
-### RESURGE BLACKLAB — MERA-ΩX PRIME
-[`nova-spectre777/resurge-blacklab`](https://github.com/nova-spectre777/resurge-blacklab)
-
-Read-only-first damaged-storage reconstruction research using evidence fusion, contradiction-first elimination, recovery entropy, immutable overlays, active acquisition ranking, and provenance-bound certificates.
-
----
-
-### CIVICMESH — Offline-First Public Resilience Network
-[`nova-spectre777/civicmesh-platform`](https://github.com/nova-spectre777/civicmesh-platform)
-
-Signed emergency alerts, deterministic mesh synchronization, offline verification, and partition-recovery foundations for public resilience scenarios.
-
----
-
-### TITAN — Autonomous Systems Platform
-[`nova-spectre777/titan-platform`](https://github.com/nova-spectre777/titan-platform)
-
-Modular control plane connecting software-factory, cloud, distributed-compute, agent-network, digital-twin, self-healing, and infrastructure-history concepts behind explicit state and safety boundaries.
-
----
-
-### FORGE — Polyglot Repository Modernization Engine
-[`nova-spectre777/forge-platform`](https://github.com/nova-spectre777/forge-platform)
-
-Multi-language modernization control plane separating repository analysis, migration DAGs, worker scheduling, risk modeling, and operator visualization.
-
----
-
-### NEXUS — AI Engineering Control Plane
-[`nova-spectre777/nexus-monster`](https://github.com/nova-spectre777/nexus-monster)
-
-Local-first modular infrastructure for AI-assisted software engineering: agent orchestration, repository intelligence, compute routing, protocol translation, deployment planning, and maintenance workflows.
-
-## Technical Surface
-
-```text
-Languages       C++23/C++20 · Go · Kotlin · Java · TypeScript · Python · JavaScript · Shell
-Crypto Math     secp256k1 · modular arithmetic · lattice parameters · probability bounds · Pareto search
-Systems         control planes · schedulers · mesh sync · task DAGs · static analysis · offline-first design
-Security        trust boundaries · Ed25519 · wallet policies · provenance · explicit approval gates
-Infrastructure  GitHub Actions · Docker · Linux · REST/JSON · CLI + browser tooling
-Research        PQC · formal methods · CUDA/eBPF/Rust/Zig/Lean tracks where explicitly marked experimental
-```
-
-## Collaboration
-
-Focused issues and PRs are welcome, especially around cryptographic mathematics, accessibility, geospatial systems, post-quantum migration, storage, networking, distributed systems, static analysis, and verification.
-
----
+The contribution calendar below is generated from GitHub activity and refreshed automatically by GitHub Actions.
 
 <div align="center">
+  <img src="./profile-3d-contrib/profile-night-view.svg" alt="Three-dimensional GitHub contribution calendar" width="100%" />
+</div>
 
-**Build systems that make people and other builders more capable.**
+## Connect
 
-**Telegram: [@intelwire](https://t.me/intelwire)**
+I'm always glad to meet people who enjoy learning, sharing ideas, and building useful things.
 
+<div align="center">
+  <a href="https://github.com/nova-spectre777">
+    <img alt="GitHub profile" src="https://img.shields.io/badge/GitHub-Follow%20my%20journey-191A2E?style=for-the-badge&logo=github&logoColor=FFFFFF" />
+  </a>
+  &nbsp;
+  <a href="https://t.me/intelwire">
+    <img alt="Telegram" src="https://img.shields.io/badge/Telegram-Message%20me-191A2E?style=for-the-badge&logo=telegram&logoColor=8A7CFF" />
+  </a>
+
+  <br /><br />
+
+  **Stay curious. Make it useful. Keep improving.**
 </div>
