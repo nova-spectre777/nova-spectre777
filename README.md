@@ -1,6 +1,11 @@
 <div align="center">
-  <img src="./assets/nova-orbit.svg" alt="Abstract 3D orbit artwork in midnight blue and lavender" width="100%" />
+  <a href="https://nova-spectre777.github.io/nova-spectre777/" target="_blank">
+    <img src="./assets/nova-orbit.svg" alt="Open Nova's interactive 3D scroll profile" width="100%" />
+  </a>
   <br />
+  <a href="https://nova-spectre777.github.io/nova-spectre777/">
+    <img src="https://img.shields.io/badge/OPEN_THE_INTERACTIVE_3D_PROFILE-Scroll%20to%20explore-7188FF?style=for-the-badge&labelColor=10131D" alt="Open the interactive 3D profile" />
+  </a>
 
   # Hey, I'm Nova 👋
 
@@ -68,7 +73,7 @@ My approach is simple: **learn → build → test → improve**.
 
 ## 3D GitHub activity
 
-The contribution calendar below is generated from GitHub activity and refreshed automatically by GitHub Actions.
+Want the real scroll-controlled 3D experience? <a href="https://nova-spectre777.github.io/nova-spectre777/">Open the interactive profile</a>. This contribution calendar is a separate GitHub activity visual and refreshes automatically via GitHub Actions.
 
 <div align="center">
   <img src="./profile-3d-contrib/profile-night-view.svg" alt="Three-dimensional GitHub contribution calendar" width="100%" />
