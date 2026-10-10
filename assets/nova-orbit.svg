@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0D1B"/><stop offset=".55" stop-color="#11152B"/><stop offset="1" stop-color="#19132F"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(840 160) rotate(90) scale(190)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9A8BFF" stop-opacity=".26"/><stop offset="1" stop-color="#9A8BFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sphere" cx="0" cy="0" r="1" gradientTransform="translate(815 97) rotate(58) scale(268 244)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7D2FF"/><stop offset=".28" stop-color="#9586FA"/><stop offset=".61" stop-color="#6054C5"/><stop offset="1" stop-color="#26234F"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="630" y1="50" x2="1000" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0EDFF" stop-opacity=".8"/><stop offset=".48" stop-color="#A69AFF" stop-opacity=".65"/><stop offset="1" stop-color="#7772CE" stop-opacity=".12"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="500" y1="250" x2="1080" y2="338" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8272F2" stop-opacity="0"/><stop offset=".5" stop-color="#8272F2" stop-opacity=".24"/><stop offset="1" stop-color="#8272F2" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="ball"><circle cx="820" cy="162" r="116"/></clipPath>
+    <filter id="blur" x="570" y="-50" width="520" height="430" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="340" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="22" fill="url(#halo)"/>
+  <g opacity=".18" stroke="#8A87C9" stroke-width="1">
+    <path d="M0 55H1200M0 115H1200M0 175H1200M0 235H1200M0 295H1200"/>
+    <path d="M60 0V340M180 0V340M300 0V340M420 0V340M540 0V340M660 0V340M780 0V340M900 0V340M1020 0V340M1140 0V340"/>
+  </g>
+  <ellipse cx="817" cy="176" rx="174" ry="145" fill="#8878FE" fill-opacity=".24" filter="url(#blur)"/>
+  <path d="M515 284C625 253 734 243 856 258C962 271 1056 297 1130 326" stroke="url(#floor)" stroke-width="30" stroke-linecap="round"/>
+  <g transform="rotate(-16 820 162)">
+    <ellipse cx="820" cy="162" rx="195" ry="62" stroke="#BFB7FF" stroke-opacity=".58" stroke-width="1.4"/>
+    <ellipse cx="820" cy="162" rx="195" ry="62" stroke="#BFB7FF" stroke-opacity=".18" stroke-width="7"/>
+  </g>
+  <circle cx="820" cy="162" r="116" fill="url(#sphere)"/>
+  <g clip-path="url(#ball)" stroke="#E8E4FF" stroke-opacity=".39" stroke-width="1.2">
+    <ellipse cx="820" cy="162" rx="108" ry="31"/>
+    <ellipse cx="820" cy="162" rx="112" ry="60"/>
+    <ellipse cx="820" cy="162" rx="112" ry="88"/>
+    <ellipse cx="820" cy="162" rx="43" ry="116"/>
+    <ellipse cx="820" cy="162" rx="79" ry="116"/>
+    <path d="M704 162H936M713 122H927M713 202H927"/>
+    <path d="M820 46V278"/>
+  </g>
+  <circle cx="820" cy="162" r="116" stroke="url(#edge)" stroke-width="2"/>
+  <g transform="rotate(-16 820 162)" stroke="#D8D2FF" stroke-width="1.4">
+    <ellipse cx="820" cy="162" rx="195" ry="62" stroke-opacity=".5"/>
+    <ellipse cx="820" cy="162" rx="195" ry="62" stroke-opacity=".1" stroke-width="12"/>
+  </g>
+  <circle cx="630" cy="215" r="4.5" fill="#DDD7FF"/><circle cx="630" cy="215" r="10" fill="#9A8BFF" fill-opacity=".2"/>
+  <circle cx="1006" cy="130" r="4" fill="#D3CFFF"/><circle cx="1006" cy="130" r="10" fill="#9A8BFF" fill-opacity=".18"/>
+  <circle cx="740" cy="38" r="2.5" fill="#EAE7FF"/><circle cx="1044" cy="239" r="2.5" fill="#EAE7FF"/>
+  <path d="M105 63h36M123 45v36M1095 65h24M1107 53v24" stroke="#B4ABFF" stroke-opacity=".55" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M79 274h88M79 282h52" stroke="#9A8BFF" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="102" cy="282" r="3" fill="#C2BAFF"/>
+</svg>
